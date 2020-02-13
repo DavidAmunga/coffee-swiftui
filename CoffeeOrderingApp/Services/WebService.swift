@@ -10,7 +10,7 @@ import Foundation
 
 class WebService{
     
-    func getAllOrders(completion:@escaping([Order]?)-> ()){
+    func getAllOrders( completion: @escaping ([Order]?) -> ()){
         guard let url = URL(string: "https://island-bramble.glitch.me/orders") else{
             DispatchQueue.main.async {
                 completion(nil)

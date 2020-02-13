@@ -16,6 +16,8 @@
 		DD24251F23F52C4F0089F31E /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24251E23F52C4F0089F31E /* Coffee.swift */; };
 		DD24252123F52CF20089F31E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252023F52CF20089F31E /* Order.swift */; };
 		DD24252423F52D860089F31E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252323F52D860089F31E /* WebService.swift */; };
+		DD24252723F52F070089F31E /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252623F52F070089F31E /* OrderListViewModel.swift */; };
+		DD24252B23F531D10089F31E /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252A23F531D10089F31E /* OrderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DD24251E23F52C4F0089F31E /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		DD24252023F52CF20089F31E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		DD24252323F52D860089F31E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		DD24252623F52F070089F31E /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		DD24252A23F531D10089F31E /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,12 @@
 		DD24250823F52C280089F31E /* CoffeeOrderingApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD24252823F531A10089F31E /* Views */,
+				DD24252523F52EF40089F31E /* ViewModel */,
 				DD24252223F52D780089F31E /* Services */,
 				DD24251D23F52C430089F31E /* Models */,
 				DD24250923F52C280089F31E /* AppDelegate.swift */,
 				DD24250B23F52C280089F31E /* SceneDelegate.swift */,
-				DD24250D23F52C280089F31E /* ContentView.swift */,
 				DD24250F23F52C290089F31E /* Assets.xcassets */,
 				DD24251423F52C290089F31E /* LaunchScreen.storyboard */,
 				DD24251723F52C290089F31E /* Info.plist */,
@@ -98,6 +103,23 @@
 				DD24252323F52D860089F31E /* WebService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		DD24252523F52EF40089F31E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD24252623F52F070089F31E /* OrderListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD24252823F531A10089F31E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD24250D23F52C280089F31E /* ContentView.swift */,
+				DD24252A23F531D10089F31E /* OrderListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +194,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD24252423F52D860089F31E /* WebService.swift in Sources */,
+				DD24252B23F531D10089F31E /* OrderListView.swift in Sources */,
 				DD24250A23F52C280089F31E /* AppDelegate.swift in Sources */,
 				DD24250C23F52C280089F31E /* SceneDelegate.swift in Sources */,
 				DD24252123F52CF20089F31E /* Order.swift in Sources */,
+				DD24252723F52F070089F31E /* OrderListViewModel.swift in Sources */,
 				DD24250E23F52C280089F31E /* ContentView.swift in Sources */,
 				DD24251F23F52C4F0089F31E /* Coffee.swift in Sources */,
 			);
