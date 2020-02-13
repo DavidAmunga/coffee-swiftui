@@ -29,7 +29,7 @@ class AddCoffeeOrderViewModel:ObservableObject{
     func placeOrder(){
         let order = Order(name: self.name, size: self.size, coffeeName: self.coffeeName, total: self.total)
         self.webService.createCoffeeOrder(order: order) { (_) in
-            <#code#>
+        
         }
     }
     
