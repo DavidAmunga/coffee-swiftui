@@ -22,6 +22,7 @@
 		DD24252F23F537B90089F31E /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252E23F537B90089F31E /* AddCoffeeOrderViewModel.swift */; };
 		DDEFD9DA23F53A1E00BC96D5 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFD9D923F53A1E00BC96D5 /* CoffeeViewModel.swift */; };
 		DDEFD9DC23F53BEC00BC96D5 /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFD9DB23F53BEC00BC96D5 /* AddCoffeeOrderView.swift */; };
+		DDEFD9DE23F543AA00BC96D5 /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFD9DD23F543AA00BC96D5 /* OrderTotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		DD24252E23F537B90089F31E /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		DDEFD9D923F53A1E00BC96D5 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 		DDEFD9DB23F53BEC00BC96D5 /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
+		DDEFD9DD23F543AA00BC96D5 /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				DD24250D23F52C280089F31E /* ContentView.swift */,
 				DD24252A23F531D10089F31E /* OrderListView.swift */,
 				DDEFD9DB23F53BEC00BC96D5 /* AddCoffeeOrderView.swift */,
+				DDEFD9DD23F543AA00BC96D5 /* OrderTotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				DD24252D23F536970089F31E /* CreateOrderResponse.swift in Sources */,
 				DDEFD9DC23F53BEC00BC96D5 /* AddCoffeeOrderView.swift in Sources */,
 				DD24250A23F52C280089F31E /* AppDelegate.swift in Sources */,
+				DDEFD9DE23F543AA00BC96D5 /* OrderTotalView.swift in Sources */,
 				DD24250C23F52C280089F31E /* SceneDelegate.swift in Sources */,
 				DDEFD9DA23F53A1E00BC96D5 /* CoffeeViewModel.swift in Sources */,
 				DD24252123F52CF20089F31E /* Order.swift in Sources */,

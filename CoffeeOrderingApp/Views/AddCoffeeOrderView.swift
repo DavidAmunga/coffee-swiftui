@@ -38,7 +38,7 @@ struct AddCoffeeOrderView: View {
                     }
                     
                     Section(header:Text("Select Coffee").font(.body),
-                            footer:Text("Total")){
+                            footer:OrderTotalView(total:self.addCoffeeOrderVM.total)){
                                 Picker("",selection: self.$addCoffeeOrderVM.size){
                                     
                                     Text("Small").tag("Small")
@@ -52,18 +52,18 @@ struct AddCoffeeOrderView: View {
                 }
                 HStack{
                     Button("Place Order"){
-                        
+                        self.addCoffeeOrderVM.placeOrder()
                     }
                 }.padding(EdgeInsets(top:12,leading:100,bottom:12,trailing:100))
                     .foregroundColor(Color.white)
-                .background(Color(red:46/255,green:204/255,blue:113/255))
+                    .background(Color(red:46/255,green:204/255,blue:113/255))
                     .cornerRadius(10)
                 
                 
             }
             .navigationBarTitle("Add Order")
         }
-       
+        
     }
 }
 
