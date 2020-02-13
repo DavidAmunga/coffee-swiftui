@@ -18,6 +18,7 @@
 		DD24252423F52D860089F31E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252323F52D860089F31E /* WebService.swift */; };
 		DD24252723F52F070089F31E /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252623F52F070089F31E /* OrderListViewModel.swift */; };
 		DD24252B23F531D10089F31E /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252A23F531D10089F31E /* OrderListView.swift */; };
+		DD24252D23F536970089F31E /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252C23F536970089F31E /* CreateOrderResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DD24252323F52D860089F31E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		DD24252623F52F070089F31E /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		DD24252A23F531D10089F31E /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		DD24252C23F536970089F31E /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				DD24251E23F52C4F0089F31E /* Coffee.swift */,
 				DD24252023F52CF20089F31E /* Order.swift */,
+				DD24252C23F536970089F31E /* CreateOrderResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				DD24252423F52D860089F31E /* WebService.swift in Sources */,
 				DD24252B23F531D10089F31E /* OrderListView.swift in Sources */,
+				DD24252D23F536970089F31E /* CreateOrderResponse.swift in Sources */,
 				DD24250A23F52C280089F31E /* AppDelegate.swift in Sources */,
 				DD24250C23F52C280089F31E /* SceneDelegate.swift in Sources */,
 				DD24252123F52CF20089F31E /* Order.swift in Sources */,
