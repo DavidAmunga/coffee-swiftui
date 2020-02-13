@@ -19,6 +19,8 @@
 		DD24252723F52F070089F31E /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252623F52F070089F31E /* OrderListViewModel.swift */; };
 		DD24252B23F531D10089F31E /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252A23F531D10089F31E /* OrderListView.swift */; };
 		DD24252D23F536970089F31E /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252C23F536970089F31E /* CreateOrderResponse.swift */; };
+		DD24252F23F537B90089F31E /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24252E23F537B90089F31E /* AddCoffeeOrderViewModel.swift */; };
+		DDEFD9DA23F53A1E00BC96D5 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFD9D923F53A1E00BC96D5 /* CoffeeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		DD24252623F52F070089F31E /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		DD24252A23F531D10089F31E /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		DD24252C23F536970089F31E /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		DD24252E23F537B90089F31E /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		DDEFD9D923F53A1E00BC96D5 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				DD24252623F52F070089F31E /* OrderListViewModel.swift */,
+				DD24252E23F537B90089F31E /* AddCoffeeOrderViewModel.swift */,
+				DDEFD9D923F53A1E00BC96D5 /* CoffeeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -201,10 +207,12 @@
 				DD24252D23F536970089F31E /* CreateOrderResponse.swift in Sources */,
 				DD24250A23F52C280089F31E /* AppDelegate.swift in Sources */,
 				DD24250C23F52C280089F31E /* SceneDelegate.swift in Sources */,
+				DDEFD9DA23F53A1E00BC96D5 /* CoffeeViewModel.swift in Sources */,
 				DD24252123F52CF20089F31E /* Order.swift in Sources */,
 				DD24252723F52F070089F31E /* OrderListViewModel.swift in Sources */,
 				DD24250E23F52C280089F31E /* ContentView.swift in Sources */,
 				DD24251F23F52C4F0089F31E /* Coffee.swift in Sources */,
+				DD24252F23F537B90089F31E /* AddCoffeeOrderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
